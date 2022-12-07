@@ -11,6 +11,14 @@
             "program": "${workspaceFolder}/day1/build_debug/day1.exe",
             "args": [],
             "cwd": "${workspaceFolder}/day1/",
+        },
+        {
+            "type": "cppvsdbg",
+            "request": "launch",
+            "name": "Launch Day2",
+            "program": "${workspaceFolder}/day2/build_debug/day2.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/day2/",
         }
     ]
 }

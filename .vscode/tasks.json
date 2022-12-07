@@ -24,6 +24,28 @@
                 "problemMatcher": "$gcc"
             },
             "group": "build"           
+        },
+        {
+            "label": "build day2",
+            "type": "shell",
+            "command": "build.bat",
+            "args": [ "debug" ],
+            "options": {
+                "cwd": "day2"
+            },
+            "windows":{
+                "command": "build.bat",
+                "problemMatcher": "$msCompile"
+            },
+            "linux":{
+                "command": "build.sh",
+                "problemMatcher": "$gcc"
+            },
+            "osx":{
+                "command":"build.sh",
+                "problemMatcher": "$gcc"
+            },
+            "group": "build"           
         }
     ]
 }
