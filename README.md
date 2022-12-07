@@ -6,7 +6,7 @@ A collection of theoretical problem solving from https://adventofcode.com/2022.
 - [x] day 0x02
 - [x] day 0x03
 - [x] day 0x04
-- [ ] day 0x05
+- [x] day 0x05
 - [ ] day 0x06
 - [ ] day 0x07
 - [ ] day 0x08

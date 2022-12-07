@@ -90,6 +90,28 @@
                 "problemMatcher": "$gcc"
             },
             "group": "build"           
+        },
+        {
+            "label": "build day5",
+            "type": "shell",
+            "command": "build.bat",
+            "args": [ "debug" ],
+            "options": {
+                "cwd": "day5"
+            },
+            "windows":{
+                "command": "build.bat",
+                "problemMatcher": "$msCompile"
+            },
+            "linux":{
+                "command": "build.sh",
+                "problemMatcher": "$gcc"
+            },
+            "osx":{
+                "command":"build.sh",
+                "problemMatcher": "$gcc"
+            },
+            "group": "build"           
         }
     ]
 }
