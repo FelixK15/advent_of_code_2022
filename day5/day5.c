@@ -89,6 +89,8 @@ int main()
         }
     }
 
+    fclose( pInput );
+
     char output[ STACK_COUNT + 1 ] = {0};
     for( int i = 0; i < STACK_COUNT; ++i )
     {
