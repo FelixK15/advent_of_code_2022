@@ -9,7 +9,7 @@ A collection of theoretical problem solving from https://adventofcode.com/2022.
 - [x] day 0x05
 - [x] day 0x06
 - [x] day 0x07
-- [ ] day 0x08
+- [x] day 0x08
 - [ ] day 0x09
 - [ ] day 0x0A
 - [ ] day 0x0B
